@@ -51,7 +51,7 @@ jobs:
     needs: build
     env:
       RESOURCE_GROUP_NAME: rg-scm-devday4
-      RESOURCE_GROUP_LOCATION: northeurope
+      RESOURCE_GROUP_LOCATION: westus
       ENV_NAME: devd4
 
     steps:

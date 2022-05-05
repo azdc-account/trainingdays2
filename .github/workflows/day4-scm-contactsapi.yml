@@ -97,7 +97,7 @@ jobs:
     needs: [build-bicep, build-api]
     env:
       RESOURCE_GROUP_NAME: rg-scm-devday4
-      RESOURCE_GROUP_LOCATION: westeurope
+      RESOURCE_GROUP_LOCATION: westus
       ENV_NAME: devd4
 
     steps:
@@ -148,7 +148,7 @@ jobs:
     needs: deploy-to-dev
     env:
       RESOURCE_GROUP_NAME: rg-scm-testday4
-      RESOURCE_GROUP_LOCATION: westeurope
+      RESOURCE_GROUP_LOCATION: westus
       ENV_NAME: testd4
 
     steps:
